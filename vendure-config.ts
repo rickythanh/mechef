@@ -8,9 +8,9 @@ import { AssetServerPlugin } from '@vendure/asset-server-plugin';
 import { AdminUiPlugin } from '@vendure/admin-ui-plugin';
 import path from 'path';
 
-const PORT = Number(process.env.PORT) || 3000;
+const PORT = Number(process.env.PORT) || 8080;
 console.log('PORT', PORT);
-console.log('process', process);
+// console.log('process', process);
 
 export const config: VendureConfig = {
     authOptions: {
