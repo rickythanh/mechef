@@ -6,7 +6,7 @@
     "start": "ts-node index.ts"
   },
   "dependencies": {
-    "@vendure/admin-ui-plugin": "0.1.2-beta.6",
+    "@vendure/admin-ui-plugin": "git+https://rickythanh@bitbucket.org/rickythanh/admin-ui-plugin.git",
     "@vendure/asset-server-plugin": "0.1.2-beta.6",
     "@vendure/core": "0.1.2-beta.6",
     "@vendure/email-plugin": "0.1.2-beta.6",
